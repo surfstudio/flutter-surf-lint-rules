@@ -32,8 +32,8 @@ jobs:
       - name: Run formatter ⚙️
         run: flutter format --set-exit-if-changed .
 
-      - name: Run tests ⚙️
-        run: flutter test
+#      - name: Run tests ⚙️
+#        run: flutter test
 
   package-analysis:
     runs-on: ubuntu-latest
