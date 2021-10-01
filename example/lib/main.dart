@@ -12,11 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+import 'package:example/async_function.dart';
 // ignore_for_file: unused_element, prefer_final_fields, unused_field, type_annotate_public_apis
 import 'package:meta/meta.dart';
 import 'package:surf_lint_rules/surf_lint_rules.dart';
-
-import 'package:example/async_function.dart';
 
 Future<void> main() async {
   await asyncFunction();
