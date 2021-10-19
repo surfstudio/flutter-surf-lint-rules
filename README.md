@@ -9,7 +9,7 @@
 
 This package is part of the [SurfGear](https://github.com/surfstudio/SurfGear) toolkit made by [Surf](https://surf.ru).
 
-## About
+## Description
 
 Lint rules for "Surf" company.
 
@@ -28,6 +28,15 @@ Create `analysis_options.yaml` file
 
 ```yaml
 include: package:surf_lint_rules/analysis_options.yaml
+```
+
+## Example
+```dart
+Future<void> main() async {
+  await asyncFunction();
+
+  unawaited(asyncFunction());
+}
 ```
 
 See the `dartanalyzer` executing the lint checks in you favorite editor.
