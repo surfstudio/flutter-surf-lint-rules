@@ -1,0 +1,10 @@
+.packages
+pubspec.lock
+.dart_tool/package_config_subset
+.dart_tool/package_config.json
+.dart_tool/version
+example/.packages
+example/pubspec.lock
+example/.dart_tool/package_config_subset
+example/.dart_tool/package_config.json
+example/.dart_tool/version
