@@ -31,6 +31,7 @@ include: package:surf_lint_rules/analysis_options.yaml
 ```
 
 ## Example
+
 ```dart
 Future<void> main() async {
   await asyncFunction();
