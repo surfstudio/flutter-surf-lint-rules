@@ -93,6 +93,6 @@ jobs:
       - name: Install dependencies 
         run: flutter pub get
 
-      - name: Hello world
-        run: dart lib/hello_world.dart
+      - name: Run app
+        run: dart lib/main.dart
 
