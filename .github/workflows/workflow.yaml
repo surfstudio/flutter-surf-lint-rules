@@ -84,7 +84,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-       
+
+      - name: Install Dart
+        uses: dart-lang/setup-dart@v1
+
       - name: Install dependencies 
         run: dart pub get
 
