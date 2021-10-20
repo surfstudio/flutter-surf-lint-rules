@@ -74,4 +74,3 @@ jobs:
 
       - name: Run example app
         run: dart example/lib/main.dart
-
