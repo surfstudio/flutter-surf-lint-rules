@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 
+      - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install Flutter 
+      - name: Install Flutter
         uses: subosito/flutter-action@v1
         with:
           channel: "stable"
@@ -40,20 +40,20 @@ jobs:
       - name: Check Installation
         run: echo | grep -q Installation README.md ; echo $?
 
-      - name: Install dependencies 
+      - name: Install dependencies
         run: flutter pub get
 
-      - name: Run dependency validator 
+      - name: Run dependency validator
         run: |
           dart pub global activate dependency_validator
           dart pub global run dependency_validator:dependency_validator
-      - name: Run analyzer 
+      - name: Run analyzer
         run: flutter analyze --fatal-warnings --fatal-infos .
 
-      - name: Run formatter 
+      - name: Run formatter
         run: flutter format --set-exit-if-changed .
 
-      - name: Run package analyzer 
+      - name: Run package analyzer
         uses: axel-op/dart-package-analyzer@v3
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
@@ -65,28 +65,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-    
-      - name: Install Dart 
-      - uses: dart-lang/setup-dart@v1
-      
 
-      - name: Install dependencies 
+      - name: Install Dart
+      - uses: dart-lang/setup-dart@v1
+
+      - name: Install dependencies
         run: dart pub get
 
-      - name: Run tests 
+      - name: Run tests
         run: dart test
-  
+
   run_example:
     needs: analysis
     runs-on: ubuntu-latest
-    
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: dart-lang/setup-dart@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Dart
+        uses: dart-lang/setup-dart@v1
 
       - name: Install dependencies
         run: dart pub get
 
       - name: Hello world
         run: dart lib/main.dart
-
