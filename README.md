@@ -22,22 +22,14 @@ dev_dependencies:
   surf_lint_rules: ^1.0.0
 ```
 
+## Example
+
 You can use both `stable` and `dev` versions of the package listed above in the badges bar.
 
 Create `analysis_options.yaml` file
 
 ```yaml
 include: package:surf_lint_rules/analysis_options.yaml
-```
-
-## Example
-
-```dart
-Future<void> main() async {
-  await asyncFunction();
-
-  unawaited(asyncFunction());
-}
 ```
 
 See the `dartanalyzer` executing the lint checks in you favorite editor.
