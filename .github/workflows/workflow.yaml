@@ -66,11 +66,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install Dart
-        uses: dart-lang/setup-dart@v1
+      - name: Install Flutter 
+        uses: subosito/flutter-action@v1
 
       - name: Install dependencies 
-        run: dart pub get
+        run: flutter pub get
 
       - name: Run example app
         run: dart example/lib/main.dart
