@@ -8,9 +8,5 @@ dependencies:
   dart_code_metrics: ^4.0.0-dev.2
   flutter_lints: ^1.0.3
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
 environment:
   sdk: ">=2.13.0 <3.0.0"
