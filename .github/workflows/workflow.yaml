@@ -77,7 +77,7 @@ jobs:
       - name: Run tests 
         run: flutter test
   
-  build_android_example:
+  run_example_app:
     needs: analysis
     runs-on: ubuntu-latest
     
@@ -93,6 +93,6 @@ jobs:
       - name: Install dependencies 
         run: flutter pub get
 
-      - name: Run app
-        run: dart lib/main.dart
+      - name: Run example app
+        run: dart example/lib/main.dart
 
