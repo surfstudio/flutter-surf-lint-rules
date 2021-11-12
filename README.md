@@ -19,7 +19,7 @@ Add `surf_lint_rules` as dependency to your `pubspec.yaml`
 
 ```yaml
 dependencies:
-  push_notification: $currentVersion$
+  surf_lint_rules: $currentVersion$
 ```
 
 <p>At this moment, the current version of <code>surf_lint_rules</code> is <a href="https://pub.dev/packages/surf_lint_rules"><img style="vertical-align:middle;" src="https://img.shields.io/pub/v/surf_lint_rules.svg" alt="surf_lint_rules version"></a>.</p>
