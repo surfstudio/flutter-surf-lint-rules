@@ -1,6 +1,6 @@
 # Surf Lint Rules
 
-[![Build Status](https://shields.io/github/workflow/status/surfstudio/SurfGear/build?logo=github&logoColor=white)](https://github.com/surfstudio/SurfGear/tree/main/packages/surf_lint_rules)
+[![Build Status](https://shields.io/github/workflow/status/surfstudio/flutter-surf-lint-rules/build?logo=github&logoColor=white)](https://github.com/surfstudio/flutter-surf-lint-rules)
 [![Pub Version](https://img.shields.io/pub/v/surf_lint_rules?logo=dart&logoColor=white)](https://pub.dev/packages/surf_lint_rules)
 [![Pub Likes](https://badgen.net/pub/likes/surf_lint_rules)](https://pub.dev/packages/surf_lint_rules)
 [![Pub popularity](https://badgen.net/pub/popularity/surf_lint_rules)](https://pub.dev/packages/surf_lint_rules/score)
@@ -15,12 +15,14 @@ Lint rules for "Surf" company.
 
 ## Installation
 
-Add `surf_lint_rules` as dependency to your pubspec.yaml
+Add `surf_lint_rules` as dependency to your `pubspec.yaml`
 
 ```yaml
-dev_dependencies:
-  surf_lint_rules: ^1.0.0
+dependencies:
+  surf_lint_rules: $currentVersion$
 ```
+
+<p>At this moment, the current version of <code>surf_lint_rules</code> is <a href="https://pub.dev/packages/surf_lint_rules"><img style="vertical-align:middle;" src="https://img.shields.io/pub/v/surf_lint_rules.svg" alt="surf_lint_rules version"></a>.</p>
 
 ## Example
 
@@ -40,11 +42,11 @@ All notable changes to this project will be documented in [this file](./CHANGELO
 
 ## Issues
 
-For issues, file directly in the Issues section.
+To report your issues, file directly in the Issues section.
 
 ## Contribute
 
-If you would like to contribute to the package (e.g. by improving the documentation, solving a bug or adding a cool new feature), please review our [contribution guide](../../CONTRIBUTING.md) first and send us your pull request.
+If you would like to contribute to the package (e.g. by improving the documentation, fixing a bug or adding a cool new feature), please read our [contribution guide](./CONTRIBUTING.md) first and send us your pull request.
 
 Your PRs are always welcome.
 
