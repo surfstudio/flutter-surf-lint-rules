@@ -1,43 +1,47 @@
 # Changelog
 
-## 1.4.0 - 2021-07-05
+## 1.4.1
+
+* internal improvements
+
+## 1.4.0
 
 * Stable release
 
-## 1.4.0-dev.1 - 2021-07-01
+## 1.4.0-dev.1
 
 * Remove pedantic dependency
 
-## 1.3.0 - 2021-06-11
+## 1.3.0
 
 * Stable release
 
-## 1.2.1-dev.2 - 2021-06-07
+## 1.2.1-dev.2
 
 * Add some rules: [always-remove-listener](https://github.com/dart-code-checker/dart-code-metrics/blob/master/doc/rules/always-remove-listener.md), [avoid-unnecessary-setstate](https://github.com/dart-code-checker/dart-code-metrics/blob/master/doc/rules/avoid-unnecessary-setstate.md).
 
-## 1.2.1-dev.1 - 2021-06-05
+## 1.2.1-dev.1
 
 * Switch on `dart_code_metrics` 4.0.0-dev.1
 
-## 1.2.0 - 2021-05-30
+## 1.2.0
 
 * Stable release
 
-## 1.1.1-dev.4 - 2021-05-27
+## 1.1.1-dev.4
 
 * Add new rule: [member-ordering-extended](https://github.com/dart-code-checker/dart-code-metrics/blob/master/doc/rules/member-ordering-extended.md)
 
-## 1.1.1-dev.3 - 2021-05-25
+## 1.1.1-dev.3
 
 * Tune metrics settings
 
-## 1.1.1-dev.2 - 2021-05-24
+## 1.1.1-dev.2
 
 * Set min SDK version to `2.13.0`.
 * Tune `avoid-returning-widgets`.
 
-## 1.1.1-dev.1 - 2021-05-24
+## 1.1.1-dev.1
 
 * Add some rules: `avoid_multiple_declarations_per_line`, `deprecated_consistency`, `prefer_if_elements_to_conditional_expressions`, `unnecessary_null_checks`, `unnecessary_nullable_for_final_variable_declarations`, `use_if_null_to_convert_nulls_to_bools`, `use_late_for_private_fields_and_variables`, `use_named_constants`, `missing_whitespace_between_adjacent_strings`, `avoid_type_to_string`, `use_build_context_synchronously`.
 * Disable rules: `sort_child_properties_last`, `sort_constructors_first`, `sort_unnamed_constructors_first`.
