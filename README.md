@@ -9,9 +9,9 @@
 
 This package is part of the [SurfGear](https://github.com/surfstudio/SurfGear) toolkit made by [Surf](https://surf.ru).
 
-## About
+## Description
 
-Lint rules for "Surf" company.
+Lint rules used by "Surf".
 
 ## Installation
 
@@ -24,6 +24,9 @@ dependencies:
 
 <p>At this moment, the current version of <code>surf_lint_rules</code> is <a href="https://pub.dev/packages/surf_lint_rules"><img style="vertical-align:middle;" src="https://img.shields.io/pub/v/surf_lint_rules.svg" alt="surf_lint_rules version"></a>.</p>
 
+## Example
+
+You can use both `stable` and `dev` versions of the package listed above in the badges bar.
 
 Create `analysis_options.yaml` file
 
