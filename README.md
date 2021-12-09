@@ -1,6 +1,6 @@
 # Surf Lint Rules
 
-[![Build Status](https://shields.io/github/workflow/status/surfstudio/flutter-surf-lint-rules/build?logo=github&logoColor=white)](https://github.com/surfstudio/flutter-surf-lint-rules)
+[![Build Status](https://shields.io/github/workflow/status/surfstudio/flutter-surf-lint-rules/Analysis?logo=github&logoColor=white)](https://github.com/surfstudio/flutter-surf-lint-rules)
 [![Pub Version](https://img.shields.io/pub/v/surf_lint_rules?logo=dart&logoColor=white)](https://pub.dev/packages/surf_lint_rules)
 [![Pub Likes](https://badgen.net/pub/likes/surf_lint_rules)](https://pub.dev/packages/surf_lint_rules)
 [![Pub popularity](https://badgen.net/pub/popularity/surf_lint_rules)](https://pub.dev/packages/surf_lint_rules/score)
