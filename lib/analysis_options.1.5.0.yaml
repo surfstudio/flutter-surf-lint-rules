@@ -254,6 +254,7 @@ linter:
     secure_pubspec_urls: true
     sized_box_shrink_expand: true
     use_decorated_box: true
+    use_colored_box: true
 
     # Pub rules.
     package_names: true
