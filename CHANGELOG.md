@@ -1,5 +1,18 @@
 # Changelog
 
+## Unreleased
+
+## 1.5.0
+### Added
+* conditional_uri_does_not_exist rule;
+* no_leading_underscores_for_library_prefixes rule;
+* no_leading_underscores_for_local_identifiers rule;
+* secure_pubspec_urls rule;
+* sized_box_shrink_expand rule;
+* use_decorated_box rule;
+* use_colored_box rule;
+* unnecessary_late rule;
+
 ## 1.4.1
 
 * internal improvements
