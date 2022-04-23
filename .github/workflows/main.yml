@@ -1,0 +1,19 @@
+name: "Main"
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+    tags-ignore:
+      - '**'
+
+jobs:
+  analysis:
+    uses: surfstudio/flutter-ci-workflows/.github/workflows/analysis_package_surf_lint_rules.yml@main
+
+  run_example_app:
+    needs: analysis
+    uses: surfstudio/flutter-ci-workflows/.github/workflows/run_dart_example_app.yml@main
