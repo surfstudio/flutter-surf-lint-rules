@@ -12,7 +12,7 @@ on:
 
 jobs:
   analysis:
-    uses: surfstudio/flutter-ci-workflows/.github/workflows/analysis_package_surf_lint_rules.yml@main
+    uses: surfstudio/flutter-ci-workflows/.github/workflows/analysis.yml@main
 
   run_example_app:
     needs: analysis
