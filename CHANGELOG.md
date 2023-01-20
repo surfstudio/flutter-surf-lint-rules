@@ -1,7 +1,9 @@
 # Changelog
 
 ## Unreleased
-
+## 2.0.0
+* upgraded flutter_lints to 2.0.1 and dart_code_metrics
+* upgraded dart_code_metrics to 5.4.0
 ## 1.5.0
 ### Added
 * conditional_uri_does_not_exist rule;
