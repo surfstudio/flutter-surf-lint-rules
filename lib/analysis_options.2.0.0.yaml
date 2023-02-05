@@ -201,7 +201,7 @@ linter:
     prefer_is_not_empty: true
     prefer_is_not_operator: true
     prefer_iterable_whereType: true
-    prefer_mixin: false
+    prefer_mixin: true
     prefer_null_aware_operators: true
     prefer_single_quotes: true
     prefer_spread_collections: true
