@@ -183,7 +183,7 @@ linter:
     prefer_asserts_in_initializer_lists: true
     prefer_collection_literals: true
     prefer_conditional_assignment: true
-    prefer_constructors_over_static_methods: false
+    prefer_constructors_over_static_methods: true
     prefer_contains: true
     prefer_equal_for_default_values: true
     prefer_final_fields: true
