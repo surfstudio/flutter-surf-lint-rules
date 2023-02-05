@@ -26,33 +26,13 @@ Future<void> main() async {
 class OrderExample {
   static const staticConst = 42;
 
-  static const _staticConst = staticConst;
-
   static final staticFinal = staticConst.isEven;
-
-  static final _staticFinal = _staticConst.isEven;
 
   static var staticField = 42;
 
-  static var _staticField = 42;
-
-  final fin = 42;
-
-  final String finalField;
-
-  final _fin = 42;
-
-  String publicField;
-
-  String get string => publicField.toString();
-
-  set string(String newString) => publicField = newString;
-
-  String _privateField = '42';
-
-  String get _field => _privateField;
-
-  set _field(String newString) => _privateField = '42';
+  static void staticFoo() {
+    return;
+  }
 
   OrderExample({
     required this.finalField,
@@ -72,13 +52,27 @@ class OrderExample {
         publicField: publicField,
       );
 
+  final fin = 42;
+
+  final String finalField;
+
+  final _fin = 42;
+
+  String publicField;
+
+  String _privateField = '42';
+
+  String get string => publicField.toString();
+
+  set string(String newString) => publicField = newString;
+
+  String get _field => _privateField;
+
+  set _field(String newString) => _privateField = '42';
+
   @override
   String toString() {
     return super.toString().substring(0);
-  }
-
-  static void staticFoo() {
-    return;
   }
 
   void foo() {
@@ -90,11 +84,19 @@ class OrderExample {
     return;
   }
 
-  static void _staticFoo() {
+  void dispose() {}
+
+  void _foo() {
     return;
   }
 
-  void _foo() {
+  static const _staticConst = staticConst;
+
+  static final _staticFinal = _staticConst.isEven;
+
+  static var _staticField = 42;
+
+  static void _staticFoo() {
     return;
   }
 }

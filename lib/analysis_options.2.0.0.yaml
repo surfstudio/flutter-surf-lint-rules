@@ -52,29 +52,33 @@ dart_code_metrics:
     - no-equal-then-else
     - prefer-trailing-comma
     - member-ordering:
-        alphabetize: false # TODO set true after code-dart_code_metrics update
+        alphabetize: false
         order:
           - public-static-const-fields
-          - private-static-const-fields
           - public-static-final-fields
-          - private-static-final-fields
           - public-static-fields
-          - private-static-fields
-          - public-final-fields
-          - private-final-fields
-          - public-fields
-          - public-getters-setters
-          - private-fields
-          - private-getters-setters
+          - public-static-methods
           - constructors
           - named-constructors
           - factory-constructors
+          - overridden-final-fields
+          - public-final-fields
+          - private-final-fields
+          - overridden-fields
+          - public-fields
+          - private-fields
+          - overridden-getters-setters
+          - public-getters-setters
+          - private-getters-setters
           - overridden-methods
-          - public-static-methods
           - public-methods
           - protected-methods
-          - private-static-methods
+          - dispose-method
           - private-methods
+          - private-static-const-fields
+          - private-static-final-fields
+          - private-static-fields
+          - private-static-methods
 
 linter:
   rules:
@@ -257,5 +261,3 @@ linter:
     # Pub rules.
     package_names: true
     sort_pub_dependencies: true
-
-
