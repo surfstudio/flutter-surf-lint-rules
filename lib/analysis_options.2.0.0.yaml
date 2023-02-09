@@ -51,6 +51,18 @@ dart_code_metrics:
     - binary-expression-operand-order
     - no-equal-then-else
     - prefer-trailing-comma
+    - avoid-passing-async-when-sync-expected
+    - prefer-moving-to-variable:
+        allowed-duplicated-chains: 2
+    - format-comment:
+        only-doc-comments: false
+        ignored-patterns:
+          - ^ @nodoc.*  # Ignores all the comments that start with '@nodoc' (for example: '// @nodoc').
+    - prefer-async-await
+    - avoid-missing-enum-constant-in-map
+    - prefer-match-file-name
+    - avoid-throw-in-catch-block # Use Error.throwWithStackTrace instead throw SomeException.
+    - avoid-unused-parameters
     - member-ordering:
         alphabetize: false # TODO set true after code-dart_code_metrics update
         order:
