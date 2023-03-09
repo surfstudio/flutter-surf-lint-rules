@@ -60,7 +60,9 @@ dart_code_metrics:
           - ^ @nodoc.*  # Ignores all the comments that start with '@nodoc' (for example: '// @nodoc').
     - prefer-async-await
     - avoid-missing-enum-constant-in-map
-    - prefer-match-file-name
+    - prefer-match-file-name:
+        exclude:
+            - test/**
     - avoid-throw-in-catch-block # Use Error.throwWithStackTrace instead throw SomeException.
     - avoid-unused-parameters
     - member-ordering:
