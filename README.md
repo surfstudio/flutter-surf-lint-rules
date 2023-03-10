@@ -26,6 +26,25 @@ Lint rules used by "Surf".
     </ul>
 </details>
 
+<details><summary>Dart code metrics rules</summary><br/>
+  <ul>
+    <li> always-remove-listener </li>
+    <li> avoid-returning-widgets </li>
+    <li> avoid-unnecessary-setstate </li>
+    <li> binary-expression-operand-order </li>
+    <li> no-equal-then-else </li>
+    <li> prefer-trailing-comma </li>
+    <li> avoid-passing-async-when-sync-expected </li>
+    <li> prefer-moving-to-variable </li>
+    <li> format-comment </li>
+    <li> prefer-async-await </li>
+    <li> avoid-missing-enum-constant-in-map </li>
+    <li> prefer-match-file-name </li>
+    <li> avoid-throw-in-catch-block  </li>
+    <li> avoid-unused-parameters </li>
+  </ul>
+</details>
+
 <details><summary>Error rules</summary><br/>
     <ul>
       <li> always_use_package_imports </li>
@@ -61,6 +80,7 @@ Lint rules used by "Surf".
       <li> valid_regexps  </li>
     </ul>
 </details>
+
 
 <details><summary>Style rules</summary><br/>
     <ul>
