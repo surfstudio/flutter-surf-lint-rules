@@ -13,7 +13,7 @@ This package is part of the [SurfGear](https://github.com/surfstudio/SurfGear) t
 
 ## Description
 
-Lint rules used by "Surf". 
+Lint rules used by Surf. 
 
 <details><summary>Const rules</summary><br/>
     <ul>
