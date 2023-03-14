@@ -171,13 +171,13 @@ Lint rules used by Surf.
       <li> <a href="https://dart-lang.github.io/linter/lints/prefer_spread_collections">prefer_spread_collections</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/prefer_typing_uninitialized_variables">prefer_typing_uninitialized_variables</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/provide_deprecation_message">provide_deprecation_message</a> </li>
-      <li> <a href="https://dart-lang.github.io/linter/lints/public_member_api_docs">public_member_api_docs (set to false)</a> </li>
+      <li> <a href="https://dart-lang.github.io/linter/lints/public_member_api_docs">public_member_api_docs</a> (set to false) </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/recursive_getters">recursive_getters</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/sized_box_for_whitespace">sized_box_for_whitespace</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/slash_for_doc_comments </li>
-      <li> <a href="https://dart-lang.github.io/linter/lints/sort_child_properties_last">sort_child_properties_last (set to false)</a</li>
-      <li> <a href="https://dart-lang.github.io/linter/lints/sort_constructors_first">sort_constructors_first (set to false)</a> </li>
-      <li> <a href="https://dart-lang.github.io/linter/lints/sort_unnamed_constructors_first">sort_unnamed_constructors_first (set to false)</a> </li>
+      <li> <a href="https://dart-lang.github.io/linter/lints/sort_child_properties_last">sort_child_properties_last</a> (set to false)</li>
+      <li> <a href="https://dart-lang.github.io/linter/lints/sort_constructors_first">sort_constructors_first</a> (set to false) </li>
+      <li> <a href="https://dart-lang.github.io/linter/lints/sort_unnamed_constructors_first">sort_unnamed_constructors_first</a> (set to false) </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/type_annotate_public_apis">type_annotate_public_apis</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/type_init_formals">type_init_formals</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/unawaited_futures">unawaited_futures</a> </li>
@@ -208,7 +208,7 @@ Lint rules used by Surf.
       <li> <a href="https://dart-lang.github.io/linter/lints/use_string_buffers">use_string_buffers</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/use_to_and_as_if_applicable">use_to_and_as_if_applicable</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/void_checks">void_checks</a> </li>
-      <li> <a href="https://dart-lang.github.io/linter/lints/lines_longer_than_80_chars">lines_longer_than_80_chars (set to false)</a> </li>
+      <li> <a href="https://dart-lang.github.io/linter/lints/lines_longer_than_80_chars">lines_longer_than_80_chars</a>  (set to false)</li>
       <li> <a href="https://dart-lang.github.io/linter/lints/flutter_style_todos">flutter_style_todos</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/conditional_uri_does_not_exist">conditional_uri_does_not_exist</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/no_leading_underscores_for_library_prefixes">no_leading_underscores_for_library_prefixes</a> </li>
@@ -266,26 +266,26 @@ Lint rules used by Surf.
 <details><summary>Member ordering</summary><br/>
     <ul>
       <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-unused-parameters">public-static-const-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/private-static-const-fields">private-static-const-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/public-static-final-fields">public-static-final-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/private-static-final-fields">private-static-final-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/public-static-fields">public-static-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/private-static-fields">private-static-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/public-final-fields">public-final-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/private-final-fields">private-final-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/public-fields">public-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/public-getters-setters">public-getters-setters</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/private-fields">private-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/private-getters-setters">private-getters-setters</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/constructors">constructors</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/named-constructors">named-constructors</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/factory-constructors">factory-constructors</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/overridden-methods">overridden-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/public-static-methods">public-static-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/public-methods">public-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/protected-methods">protected-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/private-static-methods">private-static-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/private-methods">private-methods</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-static-const-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-static-final-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-static-final-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-static-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-static-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-final-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-final-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-getters-setters</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-fields</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-getters-setters</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">constructors</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">named-constructors</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">factory-constructors</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">overridden-methods</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-static-methods</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-methods</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">protected-methods</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-static-methods</a> </li>
+      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-methods</a> </li>
     </ul>
 </details>
 
