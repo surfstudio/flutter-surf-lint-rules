@@ -265,27 +265,27 @@ Lint rules used by Surf.
 
 <details><summary>Member ordering</summary><br/>
     <ul>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-unused-parameters">public-static-const-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-static-const-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-static-final-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-static-final-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-static-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-static-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-final-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-final-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-getters-setters</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-fields</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-getters-setters</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">constructors</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">named-constructors</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">factory-constructors</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">overridden-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-static-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">public-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">protected-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-static-methods</a> </li>
-      <li> <a href="https://dartcodemetrics.dev/docs/rules/common/member-ordering">private-methods</a> </li>
+      <li>public-static-const-fields</li>
+      <li>private-static-const-fields</li>
+      <li>public-static-final-fields</li>
+      <li>private-static-final-fields</li>
+      <li>public-static-fields</li>
+      <li>private-static-fields</li>
+      <li>public-final-fields</li>
+      <li>private-final-fields</li>
+      <li>public-fields</li>
+      <li>public-getters-setters</li>
+      <li>private-fields</li>
+      <li>private-getters-setters</li>
+      <li>constructors</li>
+      <li>named-constructors</li>
+      <li>factory-constructors</li>
+      <li>overridden-methods</li>
+      <li>public-static-methods</li>
+      <li>public-methods</li>
+      <li>protected-methods</li>
+      <li>private-static-methods</li>
+      <li>private-methods</li>
     </ul>
 </details>
 
