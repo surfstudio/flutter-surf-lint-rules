@@ -1,6 +1,11 @@
 # Changelog
 
 ## Unreleased
+## 2.1.0
+* added new DCM rules
+* added lint rules description links
+* updated README.md
+
 ## 2.0.0
 * upgraded flutter_lints to 2.0.1
 * upgraded dart_code_metrics to 5.5.1
