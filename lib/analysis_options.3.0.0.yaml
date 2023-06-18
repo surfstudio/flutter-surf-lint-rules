@@ -61,9 +61,6 @@ dart_code_metrics:
           - ^ @nodoc.*  # Ignores all the comments that start with '@nodoc' (for example: '// @nodoc').
     - prefer-async-await
     - avoid-missing-enum-constant-in-map
-    - prefer-match-file-name:
-        exclude:
-            - test/**
     - avoid-throw-in-catch-block # Use Error.throwWithStackTrace instead throw SomeException.
     - avoid-unused-parameters
     - member-ordering:
@@ -165,7 +162,6 @@ linter:
     always_specify_types: false
     annotate_overrides: true
     avoid_annotating_with_dynamic: true
-    avoid_as: true
     avoid_bool_literals_in_conditional_expressions: true
     avoid_catches_without_on_clauses: true
     avoid_catching_errors: true
@@ -187,7 +183,6 @@ linter:
     avoid_renaming_method_parameters: true
     avoid_return_types_on_setters: true
     avoid_returning_null_for_void: true
-    avoid_returning_null: true
     avoid_returning_this: true
     avoid_setters_without_getters: true
     avoid_shadowing_type_parameters: true
