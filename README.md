@@ -26,25 +26,6 @@ Lint rules used by Surf.
     </ul>
 </details>
 
-<details><summary>Dart code metrics rules</summary><br/>
-  <ul>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/flutter/always-remove-listener.html">always-remove-listener</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/flutter/avoid-returning-widgets.html">avoid-returning-widgets</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/flutter/avoid-unnecessary-setstate.html">avoid-unnecessary-setstate</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/binary-expression-operand-order.html">binary-expression-operand-order</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/no-equal-then-else.html">no-equal-then-else</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma.html">prefer-trailing-comma</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-passing-async-when-sync-expected.html">avoid-passing-async-when-sync-expected</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/prefer-moving-to-variable.html">prefer-moving-to-variable</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/format-comment.html">format-comment</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/prefer-async-await.html">prefer-async-await</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-missing-enum-constant-in-map.html">avoid-missing-enum-constant-in-map</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/prefer-match-file-name.html">prefer-match-file-name</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-throw-in-catch-block.html">avoid-throw-in-catch-block</a>  </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-unused-parameters.html">avoid-unused-parameters</a> </li>
-  </ul>
-</details>
-
 <details><summary>Error rules</summary><br/>
     <ul>
       <li> <a href="https://dart-lang.github.io/linter/lints/always_use_package_imports.html">always_use_package_imports</a> </li>
