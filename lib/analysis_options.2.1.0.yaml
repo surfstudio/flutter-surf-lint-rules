@@ -1,6 +1,8 @@
 include: package:flutter_lints/flutter.yaml
 
 analyzer:
+  plugins:
+    - dart_code_metrics
   exclude:
     - "build/**"
   strong-mode:
@@ -38,6 +40,55 @@ analyzer:
     use_build_context_synchronously: error
     use_key_in_widget_constructors: error
     valid_regexps: error
+
+dart_code_metrics:
+  metrics-exclude:
+    - test/**
+  rules:
+    - always-remove-listener
+    - avoid-returning-widgets
+    - avoid-unnecessary-setstate
+    - binary-expression-operand-order
+    - no-equal-then-else
+    - prefer-trailing-comma
+    - avoid-passing-async-when-sync-expected
+    - prefer-moving-to-variable:
+        allowed-duplicated-chains: 2
+    - format-comment:
+        only-doc-comments: false
+        ignored-patterns:
+          - ^ @nodoc.*  # Ignores all the comments that start with '@nodoc' (for example: '// @nodoc').
+    - prefer-async-await
+    - avoid-missing-enum-constant-in-map
+    - prefer-match-file-name:
+        exclude:
+          - test/**
+    - avoid-throw-in-catch-block # Use Error.throwWithStackTrace instead throw SomeException.
+    - avoid-unused-parameters
+    - member-ordering:
+        alphabetize: false # TODO set true after code-dart_code_metrics update
+        order:
+          - public-static-const-fields
+          - private-static-const-fields
+          - public-static-final-fields
+          - private-static-final-fields
+          - public-static-fields
+          - private-static-fields
+          - public-final-fields
+          - private-final-fields
+          - public-fields
+          - public-getters-setters
+          - private-fields
+          - private-getters-setters
+          - constructors
+          - named-constructors
+          - factory-constructors
+          - overridden-methods
+          - public-static-methods
+          - public-methods
+          - protected-methods
+          - private-static-methods
+          - private-methods
 
 linter:
   rules:
