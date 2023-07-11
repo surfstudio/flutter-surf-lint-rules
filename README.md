@@ -13,7 +13,7 @@ This package is part of the [SurfGear](https://github.com/surfstudio/SurfGear) t
 
 ## Description
 
-Lint rules used by Surf. 
+Lint rules used by Surf.
 
 <details><summary>Const rules</summary><br/>
     <ul>
@@ -244,33 +244,6 @@ Lint rules used by Surf.
     </ul>
 </details>
 
-<details><summary>Member ordering</summary><br/>
-    <ul>
-      <li>public-static-const-fields</li>
-      <li>private-static-const-fields</li>
-      <li>public-static-final-fields</li>
-      <li>private-static-final-fields</li>
-      <li>public-static-fields</li>
-      <li>private-static-fields</li>
-      <li>public-final-fields</li>
-      <li>private-final-fields</li>
-      <li>public-fields</li>
-      <li>public-getters-setters</li>
-      <li>private-fields</li>
-      <li>private-getters-setters</li>
-      <li>constructors</li>
-      <li>named-constructors</li>
-      <li>factory-constructors</li>
-      <li>overridden-methods</li>
-      <li>public-static-methods</li>
-      <li>public-methods</li>
-      <li>protected-methods</li>
-      <li>private-static-methods</li>
-      <li>private-methods</li>
-    </ul>
-</details>
-
-
 ## Installation
 
 Add `surf_lint_rules` as dependency to your `pubspec.yaml`
@@ -304,13 +277,15 @@ To report your issues, file directly in the Issues section.
 
 ## Contribute
 
-If you would like to contribute to the package (e.g. by improving the documentation, fixing a bug or adding a cool new feature), please read our [contribution guide](./CONTRIBUTING.md) first and send us your pull request.
+If you would like to contribute to the package (e.g. by improving the documentation, fixing a bug or adding a cool new
+feature), please read our [contribution guide](./CONTRIBUTING.md) first and send us your pull request.
 
 Your PRs are always welcome.
 
 ## How to reach us
 
-Please feel free to ask any questions about this package. Join our community chat on Telegram. We speak English and Russian.
+Please feel free to ask any questions about this package. Join our community chat on Telegram. We speak English and
+Russian.
 
 [![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/SurfGear)
 
