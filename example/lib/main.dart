@@ -21,6 +21,12 @@ Future<void> main() async {
   await asyncFunction();
 
   unawaited(asyncFunction());
+
+  OrderExample.empty();
+
+  OrderExample.staticFoo();
+
+  final _ = OrderExample.staticFinal + OrderExample.staticField;
 }
 
 class OrderExample {
@@ -28,9 +34,9 @@ class OrderExample {
 
   static const _staticConst = staticConst;
 
-  static final staticFinal = staticConst.isEven;
+  static final staticFinal = _staticConst.isEven ? 42 : 43;
 
-  static final _staticFinal = _staticConst.isEven;
+  static final _staticFinal = _staticConst.isEven ? 42 : 43;
 
   static var staticField = 42;
 
@@ -44,7 +50,7 @@ class OrderExample {
 
   String publicField;
 
-  String get string => publicField.toString();
+  String get string => publicField;
 
   set string(String newString) => publicField = newString;
 
@@ -52,7 +58,7 @@ class OrderExample {
 
   String get _field => _privateField;
 
-  set _field(String newString) => _privateField = '42';
+  set _field(String _) => _privateField = '42';
 
   OrderExample({
     required this.finalField,
