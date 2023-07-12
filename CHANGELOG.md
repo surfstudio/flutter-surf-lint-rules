@@ -1,7 +1,5 @@
 # Changelog
 
-## Unreleased
-
 ## 3.0.0
 
 * [BREAKING CHANGE] Removed dart_code_metrics
