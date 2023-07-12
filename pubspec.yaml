@@ -5,7 +5,6 @@ repository: "https://github.com/surfstudio/flutter-surf-lint-rules"
 issue_tracker: "https://github.com/surfstudio/flutter-surf-lint-rules/issues"
 
 dependencies:
-  dart_code_metrics: 5.7.5
   flutter_lints: 2.0.1
 
 environment:

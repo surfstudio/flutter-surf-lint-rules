@@ -13,7 +13,7 @@ This package is part of the [SurfGear](https://github.com/surfstudio/SurfGear) t
 
 ## Description
 
-Lint rules used by Surf. 
+Lint rules used by Surf.
 
 <details><summary>Const rules</summary><br/>
     <ul>
@@ -24,25 +24,6 @@ Lint rules used by Surf.
       <li> <a href="https://dart-lang.github.io/linter/lints/unnecessary_const.html">unnecessary_const</a> </li>
       <li> <a href="https://dart-lang.github.io/linter/lints/unnecessary_late.html">unnecessary_late</a> </li>
     </ul>
-</details>
-
-<details><summary>Dart code metrics rules</summary><br/>
-  <ul>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/flutter/always-remove-listener.html">always-remove-listener</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/flutter/avoid-returning-widgets.html">avoid-returning-widgets</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/flutter/avoid-unnecessary-setstate.html">avoid-unnecessary-setstate</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/binary-expression-operand-order.html">binary-expression-operand-order</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/no-equal-then-else.html">no-equal-then-else</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/prefer-trailing-comma.html">prefer-trailing-comma</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-passing-async-when-sync-expected.html">avoid-passing-async-when-sync-expected</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/prefer-moving-to-variable.html">prefer-moving-to-variable</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/format-comment.html">format-comment</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/prefer-async-await.html">prefer-async-await</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-missing-enum-constant-in-map.html">avoid-missing-enum-constant-in-map</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/prefer-match-file-name.html">prefer-match-file-name</a> </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-throw-in-catch-block.html">avoid-throw-in-catch-block</a>  </li>
-    <li> <a href="https://dartcodemetrics.dev/docs/rules/common/avoid-unused-parameters.html">avoid-unused-parameters</a> </li>
-  </ul>
 </details>
 
 <details><summary>Error rules</summary><br/>
@@ -263,33 +244,6 @@ Lint rules used by Surf.
     </ul>
 </details>
 
-<details><summary>Member ordering</summary><br/>
-    <ul>
-      <li>public-static-const-fields</li>
-      <li>private-static-const-fields</li>
-      <li>public-static-final-fields</li>
-      <li>private-static-final-fields</li>
-      <li>public-static-fields</li>
-      <li>private-static-fields</li>
-      <li>public-final-fields</li>
-      <li>private-final-fields</li>
-      <li>public-fields</li>
-      <li>public-getters-setters</li>
-      <li>private-fields</li>
-      <li>private-getters-setters</li>
-      <li>constructors</li>
-      <li>named-constructors</li>
-      <li>factory-constructors</li>
-      <li>overridden-methods</li>
-      <li>public-static-methods</li>
-      <li>public-methods</li>
-      <li>protected-methods</li>
-      <li>private-static-methods</li>
-      <li>private-methods</li>
-    </ul>
-</details>
-
-
 ## Installation
 
 Add `surf_lint_rules` as dependency to your `pubspec.yaml`
@@ -323,13 +277,15 @@ To report your issues, file directly in the Issues section.
 
 ## Contribute
 
-If you would like to contribute to the package (e.g. by improving the documentation, fixing a bug or adding a cool new feature), please read our [contribution guide](./CONTRIBUTING.md) first and send us your pull request.
+If you would like to contribute to the package (e.g. by improving the documentation, fixing a bug or adding a cool new
+feature), please read our [contribution guide](./CONTRIBUTING.md) first and send us your pull request.
 
 Your PRs are always welcome.
 
 ## How to reach us
 
-Please feel free to ask any questions about this package. Join our community chat on Telegram. We speak English and Russian.
+Please feel free to ask any questions about this package. Join our community chat on Telegram. We speak English and
+Russian.
 
 [![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/SurfGear)
 
