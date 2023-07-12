@@ -1,17 +1,27 @@
 # Changelog
 
-## Unreleased
+## 3.0.0
+
+* [BREAKING CHANGE] Removed dart_code_metrics
+* Added new lint rules for dart 3
+* Updated README.md
+
 ## 2.1.0
+
 * added new DCM rules
 * added lint rules description links
 * updated README.md
 
 ## 2.0.0
+
 * upgraded flutter_lints to 2.0.1
 * upgraded dart_code_metrics to 5.5.1
 * remove deprecated rule: invariant_booleans
+
 ## 1.5.0
+
 ### Added
+
 * conditional_uri_does_not_exist rule;
 * no_leading_underscores_for_library_prefixes rule;
 * no_leading_underscores_for_local_identifiers rule;
