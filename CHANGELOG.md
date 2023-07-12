@@ -1,6 +1,12 @@
 # Changelog
 
 ## Unreleased
+
+## 3.0.0
+* removed dart_code_metrics
+* added new lint rules for dart 3
+* updated README.md
+
 ## 2.1.0
 * added new DCM rules
 * added lint rules description links
