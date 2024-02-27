@@ -13,8 +13,8 @@ jobs:
     needs: analysis
     uses: surfstudio/flutter-ci-workflows/.github/workflows/publish_to_pub.yml@main
     with:
-      PANA_TOTAL: '100'
+      PANA_TOTAL: "100"
     secrets:
-      PUB_CREDENTIAL_JSON: ${{ secrets.PUB_CREDENTIAL_JSON }}
-      PUB_OAUTH_ACCESS_TOKEN: ${{ secrets.PUB_OAUTH_ACCESS_TOKEN }}
-      PUB_OAUTH_REFRESH_TOKEN: ${{ secrets.PUB_OAUTH_REFRESH_TOKEN }}
+      PUB_CREDENTIAL_JSON: ${{ secrets.SURF_PUB_CREDENTIAL_JSON }}
+      PUB_OAUTH_ACCESS_TOKEN: ${{ secrets.SURF_PUB_OAUTH_ACCESS_TOKEN }}
+      PUB_OAUTH_REFRESH_TOKEN: ${{ secrets.SURF_PUB_OAUTH_REFRESH_TOKEN }}
