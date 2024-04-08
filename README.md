@@ -62,7 +62,6 @@ Lint rules used by Surf.
     </ul>
 </details>
 
-
 <details><summary>Style rules</summary><br/>
     <ul>
       <li> <a href="https://dart-lang.github.io/linter/lints/always_declare_return_types.html">always_declare_return_types</a> </li>
