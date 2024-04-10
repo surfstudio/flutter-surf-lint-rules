@@ -12,10 +12,6 @@
 ![Dart Platform](https://badgen.net/pub/dart-platform/surf_lint_rules)
 ![Flutter Platform](https://badgen.net/pub/flutter-platform/surf_lint_rules)
 
-This package is part of the [SurfGear](https://github.com/surfstudio/SurfGear) toolkit made by [Surf](https://surf.ru).
-
-[![Surf Lint Rules](https://i.ibb.co/D7ymVLp/Surf-Lint-Rules.png)](https://github.com/surfstudio/SurfGear)
-
 ## Overview
 
 Lint rules used by Surf.
