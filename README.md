@@ -1,15 +1,14 @@
 # Surf Lint Rules
 
-[![Build Status](https://shields.io/github/actions/workflow/status/surfstudio/flutter-surf-lint-rules/main.yml?logo=github&logoColor=white)](https://github.com/surfstudio/flutter-surf-lint-rules)
+<img src="https://raw.githubusercontent.com/surfstudio/flutter-open-source/main/assets/logo_white.png#gh-dark-mode-only" width="200">
+<img src="https://raw.githubusercontent.com/surfstudio/flutter-open-source/main/assets/logo_black.png#gh-light-mode-only" width="200">
+
+[![Build Status](https://shields.io/github/actions/workflow/status/surfstudio/flutter-surf-lint-rules/on_pull_request.yml?logo=github&logoColor=white)](https://github.com/surfstudio/flutter-surf-lint-rules)
 [![Pub Version](https://img.shields.io/pub/v/surf_lint_rules?logo=dart&logoColor=white)](https://pub.dev/packages/surf_lint_rules)
 [![Pub Likes](https://badgen.net/pub/likes/surf_lint_rules)](https://pub.dev/packages/surf_lint_rules)
 [![Pub popularity](https://badgen.net/pub/popularity/surf_lint_rules)](https://pub.dev/packages/surf_lint_rules/score)
 ![Dart Platform](https://badgen.net/pub/dart-platform/surf_lint_rules)
 ![Flutter Platform](https://badgen.net/pub/flutter-platform/surf_lint_rules)
-
-This package is part of the [SurfGear](https://github.com/surfstudio/SurfGear) toolkit made by [Surf](https://surf.ru).
-
-[![Surf Lint Rules](https://i.ibb.co/D7ymVLp/Surf-Lint-Rules.png)](https://github.com/surfstudio/SurfGear)
 
 ## Overview
 
