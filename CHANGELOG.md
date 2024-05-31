@@ -1,12 +1,11 @@
 # Changelog
 
-## 3.0.2
+## 3.1.0
 
-* Correct logo position in readme
+### Removed
 
-## 3.0.1
-
-* Rebranding
+* one_member_abstracts 
+* use_setters_to_change_properties
 
 ## 3.0.0
 
