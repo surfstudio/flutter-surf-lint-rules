@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 4.0.0
 
 * Updated version of `flutter_lints` to `5.0.0`
 * Updated minSdk version to 3.5.0
