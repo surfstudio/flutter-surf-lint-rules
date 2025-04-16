@@ -1,5 +1,22 @@
 # Changelog
 
+## Unreleased
+
+* Updated version of `flutter_lints` to `5.0.0`
+* Updated minSdk version to 3.5.0
+
+### Removed 
+
+* prefer_const_constructors
+* prefer_const_declarations
+* prefer_const_literals_to_create_immutables
+
+https://github.com/dart-lang/core/issues/833
+
+### Added 
+
+* avoid_null_checks_in_equality_operators 
+
 ## 3.1.0
 
 ### Removed
