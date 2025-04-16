@@ -11,6 +11,8 @@
 * prefer_const_declarations
 * prefer_const_literals_to_create_immutables
 
+https://github.com/dart-lang/core/issues/833
+
 ### Added 
 
 * avoid_null_checks_in_equality_operators 
