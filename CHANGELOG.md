@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+* Updated version of `flutter_lints` to `5.0.0`
+* Updated minSdk version to 3.5.0
+* removed const rules
+* added avoid_null_checks_in_equality_operators rule
+
 ## 3.1.0
 
 ### Removed
